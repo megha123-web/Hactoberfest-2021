@@ -35,5 +35,5 @@ int main() {
     cout << "Match found at position: " << output << endl;
   }
 
-  return 0
+  return 0;
 }
