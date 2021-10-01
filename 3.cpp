@@ -30,5 +30,5 @@ int main()
     insertionSort(arr, n);
     printArray(arr, n);
 
-    return 0
+    return 0;
 }
