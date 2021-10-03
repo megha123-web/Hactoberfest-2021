@@ -24,7 +24,7 @@ int main() {
   for (int i = 0; i < 10; i++) {
     cin >> myarr[i];
   }
-  cout << "Please enter an element to search" << endl;
+  cout << "Please enter elements to search" << endl;
   cin >> num;
 
   output = binarySearch(myarr, 0, 9, num);
