@@ -16,18 +16,21 @@ int binarySearch(int arr[], int left, int right, int x) {
   return -1;
 }
 int main() {
-  int myarr[10];
+  int n;
+  cin>>n;
+
+  int myarr[n];
   int num;
   int output;
 
-  cout << "Please enter 10 elements ASCENDING order" << endl;
-  for (int i = 0; i < 10; i++) {
+  cout << "Please enter n elements ASCENDING order" << endl;
+  for (int i = 0; i < n; i++) {
     cin >> myarr[i];
   }
   cout << "Please enter elements to search" << endl;
   cin >> num;
 
-  output = binarySearch(myarr, 0, 9, num);
+  output = binarySearch(myarr, 0, n-1, num);
 
   if (output == -1) {
     cout << "No Match Found" << endl;
