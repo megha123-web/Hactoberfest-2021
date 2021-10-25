@@ -28,7 +28,7 @@ void selectionSort(int array[], int size) {
   }
 }
 
-
+// Driver code
 int main() {
   int data[] = {20, 12, 10, 15, 2};
   int size = sizeof(data) / sizeof(data[0]);
